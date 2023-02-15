@@ -22,13 +22,10 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Tú conduce, <br className="sm:block hidden" /> nosotros te indicamos la ruta
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+        Con el uso adecuado de esta aplición, podrás aparcar más rápido que nunca, pues dejas de perder tiempo en vueltas que no llegan a ningúnn lado.
       </p>
 
       <Button styles={`mt-10`} />

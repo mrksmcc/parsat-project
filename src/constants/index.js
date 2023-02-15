@@ -1,21 +1,21 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, tesla, google_maps, send, shield, star, google  } from "../assets";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Inicio",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Características",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Producto",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Clientes",
   },
 ];
 
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Calidad",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "En Parsat aseguramos una calidad que ninguna otra aplicación de parking ofrece.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% Seguro",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Tomamos medidas de seguridad que protejen tus datos y rutas.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Ahorra",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Gasta menos en combustibles al dejar de tener que dar vueltas buscando parkings.",
   },
 ];
 
@@ -47,108 +47,121 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "Aparcar no tiene porqué ser tedioso y complicado.",
+    name: "Marcos Moreno",
+    title: "Fundador",
+    img: people02,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "Ahorra tiempo y combustible con un solo clic en tu móvil.",
+    name: "Manuela Caro",
+    title: "Fundadora",
+    img: people01,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Con la facilidad de un clic, ayudas al medioambiente al emitir menos CO2.",
+    name: "Pablo Domínguez",
+    title: "Fundador",
     img: people03,
   },
+  {
+    id: "feedback-4",
+    content: 
+      "Lorem ipsum",
+    name: "Lola Corbacho",
+    title: "Fundadora",
+    img: people01
+  },
+  {
+    id: "feedback-5",
+    content: 
+      "Lorem ipsum",
+    name: "Carlos Galnares",
+    title: "Fundador",
+    img: people01
+  }
+  
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
+    title: "Usuarios activos",
     value: "3800+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "Confiado por empresas",
     value: "230+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Coches aparcados",
+    value: "10K+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Links útiles",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Contenido",
+        link: "https://www.parsat.ml/content/",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Como funciona",
+        link: "https://www.parsat.ml/how-it-works/",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Crea",
+        link: "https://www.parsat.ml/create/",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Explora",
+        link: "https://www.parsat.ml/explore/",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Términos y servicios",
+        link: "https://www.parsat.ml/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Comunidad",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Centro de ayuda",
+        link: "https://www.parsat.ml/help-center/",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "Asociados",
+        link: "https://www.parsat.ml/partners/",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: "Sugerencias",
+        link: "https://www.parsat.ml/suggestions/",
       },
       {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Noticias",
+        link: "https://www.parsat.ml/newsletters/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Asociados",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Nuestros asociados",
+        link: "https://www.parsat.ml/our-partner/",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Se un asociado",
+        link: "https://www.parsat.ml/become-a-partner/",
       },
     ],
   },
@@ -180,18 +193,10 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: google_maps,
   },
   {
     id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
+    logo: tesla,
+  }
 ];
