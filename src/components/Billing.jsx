@@ -17,9 +17,7 @@ const Billing = () => (
         Controla todos los aparcamientos disponibles <br className="sm:block hidden" /> y encuentra la mejor ruta hasta estos.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-        placerat.
+        Descarga parsat en tu teléfono móvil ahora y empieza a utilizarla en un instante!
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

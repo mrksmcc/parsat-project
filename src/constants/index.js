@@ -71,7 +71,7 @@ export const feedback = [
   {
     id: "feedback-4",
     content: 
-      "Lorem ipsum",
+      "Encuentra el mejor sitio cerca de ti.",
     name: "Lola Corbacho",
     title: "Fundadora",
     img: people01
@@ -79,10 +79,10 @@ export const feedback = [
   {
     id: "feedback-5",
     content: 
-      "Lorem ipsum",
+      "Aparca en un momento y sin problemas.",
     name: "Carlos Galnares",
     title: "Fundador",
-    img: people01
+    img: people03
   }
   
 ];
